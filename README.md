@@ -6,6 +6,8 @@ Encode / decode big endian unsigned 48 bit integers
 npm install uint48be
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/uint48be.svg?style=flat)](http://travis-ci.org/mafintosh/uint48be)
+
 ## Usage
 
 ``` js
