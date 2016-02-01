@@ -1,0 +1,20 @@
+{
+  "name": "uint48be",
+  "version": "0.0.0",
+  "description": "Encode / decode big endian unsigned 48 bit integers",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/uint48be.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/uint48be/issues"
+  },
+  "homepage": "https://github.com/mafintosh/uint48be"
+}
