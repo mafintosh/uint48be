@@ -20,7 +20,7 @@ tape('decode', function (t) {
   // 2695A9E67047
   // 42424242434119
   t.same(uint48be.decode(new Buffer([0x26, 0x95, 0xa9, 0xe6, 0x70, 0x47])), 42424242434119)
-  t.same(uint48be.decode(new Buffer.from('ffffffffffff', 'hex')), Math.pow(2, 48) -1)
+  t.same(uint48be.decode(new Buffer([0xff, 0xff, 0xff, 0xff, 0xff, 0xff])), Math.pow(2, 48) - 1)
   t.same(uint48be.decode.bytes, 6)
   t.end()
 })
