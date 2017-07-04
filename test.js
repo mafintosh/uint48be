@@ -12,6 +12,7 @@ tape('encode', function (t) {
 tape('decode', function (t) {
   t.same(uint48be.decode(new Buffer([0, 0, 0, 0, 0, 42])), 42)
   t.same(uint48be.decode(new Buffer([0x26, 0x95, 0xa9, 0xe6, 0x70, 0x47])), 42424242424242)
+  t.same(uint48be.decode(new Buffer.from('ffffffffffff', 'hex')), Math.pow(2, 48) -1)
   t.same(uint48be.decode.bytes, 6)
   t.end()
 })
