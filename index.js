@@ -5,7 +5,7 @@ exports.encodingLength = function () {
 }
 
 exports.encode = function (num, buf, offset) {
-  if (!buf) buf = new Buffer(6)
+  if (!buf) buf = Buffer.alloc(6)
   if (!offset) offset = 0
 
   var top = Math.floor(num / TWOPOW32)
