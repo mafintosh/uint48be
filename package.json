@@ -1,6 +1,6 @@
 {
   "name": "uint48be",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Encode / decode big endian unsigned 48 bit integers",
   "main": "index.js",
   "dependencies": {},
